@@ -1,39 +1,20 @@
 package com.dtaylor.api.domain;
 
+import lombok.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.io.InputStream;
 
+@AllArgsConstructor
+@Data
+@EqualsAndHashCode
+@ToString
+@Document
+@NoArgsConstructor
 public class Video {
+    @Id
+    private String id;
     private String title;
     private InputStream stream;
-
-    public Video() {
-        super();
-    }
-
-    public Video(String title) {
-        super();
-        this.title = title;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public InputStream getStream() {
-        return stream;
-    }
-
-    public void setStream(InputStream stream) {
-        this.stream = stream;
-    }
-
-    @Override
-    public String toString() {
-        return "Video [title=" + title + "]";
-    }
-
 }
