@@ -2,6 +2,7 @@ package com.dtaylor.api;
 
 import com.dtaylor.api.domain.Product;
 import com.dtaylor.api.repository.ProductRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.core.ReactiveMongoOperations;
 import reactor.core.publisher.Flux;
 
+@Slf4j
 @SpringBootApplication
 public class ApiApplication {
 

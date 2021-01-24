@@ -13,8 +13,7 @@ import java.io.IOException;
 
 @Service
 public class PhotoService {
-    final
-    ReactiveMongoTemplate template;
+    final ReactiveMongoTemplate template;
 
     public PhotoService(ReactiveMongoTemplate template) {
         this.template = template;
@@ -28,7 +27,7 @@ public class PhotoService {
         return template.findAll(Photo.class);
     }
 
-    private Mono<Photo> save(Mono<Photo> account) {
+    public Mono<Photo> savePhoto(Mono<Photo> account) {
         return template.save(account);
     }
 

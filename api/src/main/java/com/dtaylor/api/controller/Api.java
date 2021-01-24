@@ -64,7 +64,7 @@ public class Api {
     }
 
     @DeleteMapping(PRODUCTS)
-    public Mono<Void> DeleteProducts() {
+    public Mono<Void> deleteProducts() {
         return productRepository.deleteAll();
     }
 }

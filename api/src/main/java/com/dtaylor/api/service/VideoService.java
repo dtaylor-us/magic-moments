@@ -31,7 +31,7 @@ public class VideoService {
     public VideoService() {
     }
 
-    public Video getVideo(String id) throws IllegalStateException, IOException {
+    public Video getVideo(String id) throws IOException {
         GridFSFile file = gridFsTemplate.findOne(new Query(Criteria.where("_id").is(id)));
         Video video = new Video();
         video.setTitle(file.getMetadata().get("title").toString());

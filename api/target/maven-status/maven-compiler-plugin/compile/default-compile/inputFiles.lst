@@ -1,0 +1,14 @@
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/config/MongoConfig.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/domain/Photo.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/repository/UserRepo.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/controller/Api.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/domain/Account.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/service/PhotoService.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/domain/Video.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/domain/User.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/service/VideoService.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/repository/AccountRepository.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/ApiApplication.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/repository/PhotoRepo.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/repository/ProductRepository.java
+/Users/derektaylor/projects/magic-moments/api/src/main/java/com/dtaylor/api/domain/Product.java
