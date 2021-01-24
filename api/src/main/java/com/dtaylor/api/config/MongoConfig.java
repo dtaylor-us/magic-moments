@@ -1,4 +1,4 @@
-package com.dtaylor.api;
+package com.dtaylor.api.config;
 
 import com.mongodb.reactivestreams.client.MongoClient;
 import com.mongodb.reactivestreams.client.MongoClients;
