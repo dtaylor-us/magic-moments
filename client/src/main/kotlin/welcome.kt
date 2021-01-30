@@ -47,7 +47,6 @@ class Welcome(props: WelcomeProps) : RComponent<WelcomeProps, WelcomeState>(prop
                     )
                 }
             }
-
         }
         div {
             img(src = "https://placekitten.com/408/287") {}
