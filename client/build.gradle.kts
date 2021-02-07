@@ -19,6 +19,8 @@ dependencies {
     implementation("org.jetbrains:kotlin-react-router-dom:5.1.2-pre.113-kotlin-1.4.0")
     implementation("org.jetbrains:kotlin-redux:4.0.0-pre.113-kotlin-1.4.0")
     implementation("org.jetbrains:kotlin-react-redux:5.0.7-pre.113-kotlin-1.4.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+    implementation(npm("react-bootstrap", "1.4.0"))
 }
 
 kotlin {
